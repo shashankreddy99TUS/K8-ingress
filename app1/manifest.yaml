@@ -42,7 +42,7 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:221082205666:certificate/ac13aa09-bd3b-4ab2-9639-e8187e563312
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:221082205666:certificate/0d0b47d5-4dfc-4b67-88fa-02057b47e30b
     alb.ingress.kubernetes.io/group.name: shashanka00315964
 spec:
   ingressClassName: alb
